@@ -15,6 +15,7 @@ Este projeto é um bot em Python que gera automaticamente um arquivo .zip com to
 - Python 3.x
 - Pip
 - Pacotes Python: `google-api-python-client`, `google-auth-httplib2`, `google-auth-oauthlib`
+- Acesso ao banco de dados MySQL
 - Credenciais da API do Google Drive (arquivo JSON da conta de serviço, caso não saiba como [confira esse tutorial](https://rclone.org/drive/#making-your-own-client-id)), ou siga esses passos a passos:
 
 ### Configurar uma conta de serviço
@@ -24,8 +25,6 @@ Este projeto é um bot em Python que gera automaticamente um arquivo .zip com to
 3. Crie uma conta de serviço e baixe o arquivo de credenciais JSON.
 4. Compartilhar a pasta do Google Drive:
 No Google Drive, compartilhe a pasta de destino do backup com o e-mail da conta de serviço (algo como <service-account-name@project-id.iam.gserviceaccount.com>)
-
-- Acesso ao banco de dados MySQL
 
 ## Instalação
 
@@ -60,4 +59,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou e
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo ```LICENSE``` para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
